@@ -23,22 +23,27 @@ Quests.EnableQuestTracker = 1
     ```bash
     git clone https://github.com/masterking32/TC-Quest-Tracker.git
     ```
+2. Navigate to the cloned directory:
 
-2. In your web server folder, run:
+    ```bash
+    cd TC-Quest-Tracker
+    ```
+
+3. In your web server folder, run:
 
     ```bash
     composer install
     ```
 
-3. Copy and edit **config.php.dist** to set your database connection parameters. Rename it to **config.php**.
+4. Copy and edit **config.php.dist** to set your database connection parameters. Rename it to **config.php**.
 
-4. Ensure the `pdo_mysql` extension is enabled in your `php.ini` file by uncommenting:
+5. Ensure the `pdo_mysql` extension is enabled in your `php.ini` file by uncommenting:
 
     ```
     extension=pdo_mysql
     ```
 
-5. Open your web browser and navigate to the folder where you installed the tracker (e.g., http://localhost/).
+6. Open your web browser and navigate to the folder where you installed the tracker (e.g., http://localhost/TC-Quest-Tracker).
 
 ---
 
