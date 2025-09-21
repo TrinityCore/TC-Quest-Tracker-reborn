@@ -49,7 +49,7 @@ Quests.EnableQuestTracker = 1
 
 ## License
 
-TC-Quest-Tracker is open-source software licensed under the [GNU AGPL license](https://github.com/ShinDarth/TC-Quest-Tracker/blob/master/LICENSE).
+TC-Quest-Tracker is open-source software licensed under the [GNU AGPL license](https://github.com/masterking32/TC-Quest-Tracker/blob/main/LICENSE).
 
 ## Credits
 
