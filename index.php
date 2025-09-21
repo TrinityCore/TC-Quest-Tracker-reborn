@@ -96,7 +96,7 @@ require_once 'config.php';
     }
 
     async function fetchPage(query, pageNum) {
-      const url = new URL(ENDPOINT, "<?php echo domain; ?>");
+      const url = new URL("<?php echo domain; ?>" + ENDPOINT);
       url.searchParams.set('query', query || '');
       url.searchParams.set('page', String(pageNum));
       url.searchParams.set('pageSize', String(PAGE_SIZE));
@@ -120,7 +120,7 @@ require_once 'config.php';
       content.innerHTML = '';
       if (typeof modal.showModal === "function") {
         modal.showModal();
-        fetch(new URL(`/quest_info.php?id=${quest_id}&_t=${Date.now()}`, "<?php echo domain; ?>"))
+        fetch("<?php echo domain; ?>" + `/quest_info.php?id=${quest_id}&_t=${Date.now()}`)
           .then(res => {
             if (!res.ok) {
               throw new Error(`HTTP ${res.status}: ${res.statusText}`);
