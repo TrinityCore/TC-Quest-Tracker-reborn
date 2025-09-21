@@ -1,0 +1,16 @@
+<?php
+
+# Connection to MySQL
+$mysql_host = 'localhost';
+$mysql_username = 'root';
+$mysql_password = 'root';
+$mysql_world = 'world';
+$mysql_characters = 'characters';
+
+# Website domain
+define('domain', 'http://localhost');
+
+# Quest URL
+define('quest_url', 'https://aowow.trinitycore.info/?quest=');
+# Query cache time (Secs)
+define('cache_time', 3600); // 1 hour
