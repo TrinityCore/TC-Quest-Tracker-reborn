@@ -44,8 +44,8 @@ Quests.EnableQuestTracker = 1
 
 ## Screenshots
 
-![Screenshot 1](https://raw.githubusercontent.com/masterking32/TC-Quest-Tracker/refs/heads/master/screenshot1.png)
-![Screenshot 2](https://raw.githubusercontent.com/masterking32/TC-Quest-Tracker/refs/heads/master/screenshot2.png)
+![Screenshot 1](https://raw.githubusercontent.com/masterking32/TC-Quest-Tracker/refs/heads/main/screenshot1.png)
+![Screenshot 2](https://raw.githubusercontent.com/masterking32/TC-Quest-Tracker/refs/heads/main/screenshot2.png)
 
 ## License
 
